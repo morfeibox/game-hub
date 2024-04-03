@@ -10,9 +10,9 @@ function App() {
   }}>
     <GridItem area={'nav'}><NavBar></NavBar></GridItem>
     <Show above="lg">
-    <GridItem area={'aside'} bg='gold'>Aside</GridItem>
+    <GridItem area={'aside'} >Aside</GridItem>
     </Show>
-    <GridItem area={'main'} bg='dodgerblue'>Nav</GridItem>
+    <GridItem area={'main'}>Main</GridItem>
   </Grid>
 }
 export default App
