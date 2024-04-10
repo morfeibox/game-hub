@@ -3,7 +3,7 @@ import {useQuery} from "@tanstack/react-query";
 import {CACHE_KEY_PLATFORMS} from "../constants";
 import apiClient from "../services/api-client";
 
-interface Platform {
+export interface Platform {
     id: number,
     name:string,
     slug:string
